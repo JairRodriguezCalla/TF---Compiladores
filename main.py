@@ -49,7 +49,7 @@ def parse_assignment(statement, variables):
         var_name = parts[0].strip()
         var_value = parts[1].strip()
 
-        # Si el valor es una cadena entre comillas, trátalo como tal.
+        
         if var_value.startswith('"') and var_value.endswith('"'):
             var_value = var_value[1:-1]
 
@@ -151,7 +151,7 @@ def interactive_mode(variables):
         elif user_input.lower() == "run_script":
             script_name = input(f"{Colors.YELLOW}Ingrese el nombre del script a ejecutar en modo headless: {Colors.RESET}")
             run_script(script_name)
-            break  # Salir después de ejecutar el script en modo headless.
+            break  
         elif user_input.lower().startswith("set_env"):
             # Ejemplo de comando: set_env VAR_NAME::VAR_VALUE
             parts = user_input.split("::")
@@ -168,7 +168,7 @@ def interactive_mode(variables):
             if switch_expr and case_expr:
                 if eval(switch_expr, globals(), variables) == eval(case_expr, globals(), variables):
                     print(f"{Colors.GREEN}Se ejecutará el bloque case.{Colors.RESET}")
-                    # Agrega aquí el código que deseas ejecutar para el bloque case.
+                   
                 else:
                     print(f"{Colors.YELLOW}No se ejecutará el bloque case.{Colors.RESET}")
             else:
