@@ -161,6 +161,14 @@ def interactive_mode(variables):
                 set_environment_variable(var_name, var_value)
             else:
                 print(f"{Colors.RED}Formato incorrecto. Use el formato 'set_env VAR_NAME::VAR_VALUE'.{Colors.RESET}")
+        elif user_input.lower().startswith("system_cmd"):
+            # Ejemplo de comando: system_cmd ls
+            parts = user_input.split()
+            if len(parts) == 2:
+                cmd = parts[1]
+                run_command(cmd, variables)
+            else:
+                print("Formato incorrecto. Use el formato 'system_cmd COMANDO'.")            
         elif user_input.lower() == "show_env":
             show_environment_variables(variables)
         else:
