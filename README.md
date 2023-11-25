@@ -9,8 +9,8 @@
 <p>Integrantes:<p>
 <li>David Joaquín Niño Suárez</li>
 <li>Mauro Imanol Obermeyer Adauto Angulo</li>
-<li>Jair Stephan Rodríguez Calla</li>
-<p>Link de Video de Exposición</p>
+<li>Jair Stephano Rodríguez Calla</li>
+<p>Link de Video de Exposición:</p>
 <li>https://drive.google.com/file/d/1Qf1L6qiFtUb4g9PB8AREL9a03DW_kZeW/view?usp=sharing</li>
 <p style="padding: 10px;">Lima, 2023</p>
 </section>
