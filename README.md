@@ -54,7 +54,6 @@
         <li><strong>interactive_mode:</strong> Modo interactivo que permite al usuario ingresar comandos y ejecutarlos.</li>
         <li><strong>main:</strong> Punto de entrada principal del programa.</li>
     </ul>
-<h2>Evidencias de ejecución</h2>
 <h2>Conclusiones</h2>
     <ul>
         <li>Desarrollar un proyecto como una shell con un conjunto complejo de características requiere una colaboración efectiva y coordinada entre los miembros del grupo. En este sentido, hemos aprendido que la comunicación clara y la asignación adecuada de tareas son fundamentales para el éxito del proyecto. La distribución equitativa de responsabilidades según las fortalezas individuales ha permitido maximizar la eficiencia y la calidad del código producido. Además, la implementación de reuniones regulares y el uso de herramientas de gestión de proyectos han facilitado el seguimiento del progreso y la resolución oportuna de problemas.</li>
