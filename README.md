@@ -48,6 +48,7 @@
         <li><strong>run_list_load:</strong> Carga una lista de comandos desde un archivo binario.</li>
         <li><strong>run_for_loop:</strong> Ejecuta un bucle for con un rango dado y una lista de comandos.</li>
         <li><strong>run_script:</strong> Ejecuta un script almacenado en un archivo.</li>
+        <li><strong>system_cmd:</strong> Permite ejecutar comandos de sistema.</li>
         <li><strong>interactive_mode:</strong> Modo interactivo que permite al usuario ingresar comandos y ejecutarlos.</li>
         <li><strong>main:</strong> Punto de entrada principal del programa.</li>
     </ul>
